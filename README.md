@@ -1,1 +1,2 @@
 # Innovative-Project
+IntelliVision is an AI-powered college management system that enhances student identification and class scheduling. Using face recognition technology, students are automatically identified when they enter the campus. A small LCD screen then displays their class schedule or exam room number for the day. The system includes an admin dashboard for managing student records, schedules, and attendance.
