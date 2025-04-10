@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root {
+    --primary-: #48A6A7;
+    --secondary-: #9ACBD0;
+    --background-: #F2EFE7;
+    --dark-: #006A71;
+    
+}
+
+html,body{
+    height: 100%;
+    background-color: #ececec;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-h1 {
+    color: #006a71;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.form-container {
+    background-color: #d9e4e4;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.form-container h2 {
+    color: #48a6a7;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.2rem;
+}
+
+.form-container button {
+    background-color: #48a6a7;
+    color: #ffffff;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: #006a71;
+}
+
+input::placeholder {
+  color: rgba(0, 0, 0, 0.5); /* 50% transparent */
+}
+
+input:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+input::-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+  
+  
